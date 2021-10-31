@@ -1,0 +1,10 @@
+@use '../basics/variables' as v;
+
+#footer {
+    background: v.$color-principal-claro;
+    background: linear-gradient(72deg, rgba(255,221,187,1) 22%, rgba(252,244,229,1) 100%);
+    a {
+        text-decoration: none;
+        color:rgb(39, 15, 23);
+    }
+}

@@ -1,0 +1,13 @@
+@use '../basics/variables' as v;
+
+#text-main {
+    color: v.$color-secundario;
+}
+
+#header {
+    background: v.$color-principal-claro;
+    
+    img {
+        width: 13rem;
+    }
+}

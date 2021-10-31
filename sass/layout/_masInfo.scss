@@ -1,0 +1,12 @@
+@use '../basics/variables' as v;
+
+#place-time {
+    background-color: v.$color-principal-claro;
+    color: v.$color-principal-oscuro;
+
+    img {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+    }
+}
